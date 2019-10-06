@@ -10,7 +10,7 @@
 
 #include <numeric>
 
-PSBTAnalysis AnalyzePSBT(PartiallySignedTransaction psbtx)
+PSBTAnalysis AnalyzePSBT(PartiallySignedTransaction& psbtx)
 {
     // Go through each input and build status
     PSBTAnalysis result;
